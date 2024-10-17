@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyNtokozo Holdings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background: blue;
+            color: white;
+            padding: 2rem 2rem;
+            text-align: center;
+        }
+
+        header img {
+            height: 120px;
+            margin-bottom: 1rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 2rem;
+        }
+
+        .home, .mission, .overview, .values, .services, .contact, .clients, .packages {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        .services ul {
+            list-style-type: none;
+        }
+
+        .services li {
+            margin-bottom: 1rem;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="LOGO.jpg.jpg" alt="MyNtokozo Holdings Logo">
+        <h1>MyNtokozo Holdings</h1>
+    </header>
+    <nav>
+        <a href="#home" class="tablink" onclick="openPage('home', this, 'grey')">Home</a>
+    <a href="#mission" class="tablink" onclick="openPage('mission', this, 'grey')">Mission</a>
+    <a href="#overview" class="tablink" onclick="openPage('overview', this, 'grey')">Overview</a>
+    <a href="#values" class="tablink" onclick="openPage('values', this, 'grey')">Values</a>
+    <a href="#services" class="tablink" onclick="openPage('services', this, 'grey')">Services</a>
+    <a href="#contact" class="tablink" onclick="openPage('contact', this, 'grey')">Contact</a>
+    <a href="#clients" class="tablink" onclick="openPage('clients', this, 'grey')">Clients</a>
+    <a href="#packages" class="tablink" onclick="openPage('packages', this, 'grey')">Packages</a>
+
+    </nav>
+
+    <section id="home" class="home active">
+        <h2>Welcome to MyNtokozo Holdings</h2>
+        <p>To add value in every project or solution, we provide to all our clients. We aim to become a major role player in the Electronic Security, Education and Information Technology sectors of the South African economy.</p>
+    </section>
+
+    <section id="mission" class="mission">
+        <h2>Our Mission</h2>
+        <p>To design and provide solutions in Electronic Security, Education, and Information Technology that assist in service delivery improvement.</p>
+    </section>
+
+    <section id="overview" class="overview">
+        <h2>Business Overview</h2>
+        <p>We aim to build an ongoing relationship that will provide a top-quality service by establishing a comfortable partnership that will support the needs of our clients and allow them more time to concentrate solely on their business and not get overwhelmed by the never-ending time-consuming tasks.</p>
+    </section>
+
+    <section id="values" class="values">
+        <h2>Our Values</h2>
+        <ul>
+            <li><b>PROFESSIONALISM</b> – Competence and effectiveness in our work.</li>
+            <li><b>ACCOUNTABILITY</b> – We are personally accountable for delivery of our commitment and promise, therefore we deliver, whatever it takes.</li>
+            <li><b>QUALITY</b> – High standards are a way of life. We pursue excellence in everything we do.</li>
+        </ul>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services Include</h2>
+        <ul>
+            <li><b>Supply and Delivery of Office/School Supplies:</b> Stationery, Adhesives, Diaries, Calendars and Planners, Office Signs, Easels, Sticky Notes and Flags, Display Units, Flip Charts, Printing Paper</li>
+            <li><b>Office / School Furniture:</b> Tables, Chairs, Desks, Plan Storage, Chair mats and Floor mats, Chalkboards</li>
+            <li><b>School Supplies:</b> Arts and Crafts, Text Books, Classroom Supplies, Pads & Books</li>
+            <li><b>I.C.T. Solution:</b> I.T. Technical Support, Networking, Cloud Services, Help Desk Support, Computer Training, Backup & Disaster Recovery, Network Security, Computer Equipment Supply</li>
+            <li><b>Electronic Security:</b> CCTV, Access Control, Data Cables, Intercom Systems, Alarm Systems, Electric Fencing, Gate & Garage Door Motors</li>
+            <li><b>Executive Gifts:</b> We supply Branded Executive Gifts, T-shirts, Caps, Pens, USB Devices, Bags, Among other things</li>
+            <li><b>Painting and Murals:</b> Schools Painting, Commercial Graffiti, Spaza Shops & Containers, Ambient Branding</li>
+            <li><b>Outdoors:</b> Jungle Gyms for Early Childhood</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>MYNTOKOZO HOLDINGS<br>
+           134 Radebe Street, EMdeni North, Soweto, 1868<br>
+           16595 Talane Crescent, Daveyton Ext. 2, Daveyton, 1520<br>
+           Ntumbane area, P.O Box 1298, Pongola, 3170<br>
+           Piet Retief, 2380<br>
+           Main No: 069 615 6827<br>
+           Cell: 073 789 5513 / 062 745 5603<br>
+           Email: hello@myntokozoholdings.co.za, mthembeni.msibi@myntokozoholdings.co.za, Themba.tshabalala@myntokozoholdings.co.za</p>
+    </section>
+
+    <section id="clients" class="clients">
+        <h2>Our Clients</h2>
+        <p>Luyolo Primary School, Leondale High School, Down Town Music Hub, Sadmon Projects and Consulting, Mohato School of Autism, Dinko Trading Enterprise, Cyber Kingdow, Zama – Lunga Logistics, Sithembiso Primary School (Davon), Malvern Primary School</p>
+    </section>
+    <section id="packages" class="packages">
+        <h2>Packages List</h2>
+        
+        <h3>Primary School Packages</h3>
+        
+        <h4>Grade 1 - 3 Package</h4>
+        <ul>
+            <li>Pencils</li>
+            <li>Erasers</li>
+            <li>Sharpeners</li>
+            <li>Crayons</li>
+            <li>Colored Pencils</li>
+            <li>Exercise Books</li>
+            <li>Glue Sticks</li>
+            <li>Safety Scissors</li>
+            <li>Rulers</li>
+            <li>Art Paper</li>
+        </ul>
+        
+        <h4>Grade 4 - 7 Package</h4>
+        <ul>
+            <li>Pencils</li>
+            <li>Erasers</li>
+            <li>Sharpeners</li>
+            <li>Colored Pencils</li>
+            <li>Markers</li>
+            <li>Exercise Books</li>
+            <li>Glue Sticks</li>
+            <li>Safety Scissors</li>
+            <li>Rulers</li>
+            <li>Notebooks</li>
+            <li>Geometry Set</li>
+            <li>Pencil Case</li>
+        </ul>
+        
+        <h3>High School Packages</h3>
+        
+        <h4>Grade 8 - 10 Package</h4>
+        <ul>
+            <li>Pens (Blue, Black, Red)</li>
+            <li>Pencils</li>
+            <li>Erasers</li>
+            <li>Sharpeners</li>
+            <li>Highlighters</li>
+            <li>Exercise Books</li>
+            <li>Binders</li>
+            <li>Dividers</li>
+            <li>Notebooks</li>
+            <li>Scientific Calculator</li>
+            <li>Geometry Set</li>
+            <li>Pencil Case</li>
+        </ul>
+        
+        <h4>Grade 11 - 12 Package</h4>
+        <ul>
+            <li>Pens (Blue, Black, Red)</li>
+            <li>Pencils</li>
+            <li>Erasers</li>
+            <li>Sharpeners</li>
+            <li>Highlighters</li>
+            <li>Exercise Books</li>
+            <li>Binders</li>
+            <li>Dividers</li>
+            <li>Notebooks</li>
+            <li>Scientific Calculator</li>
+            <li>Geometry Set</li>
+            <li>Pencil Case</li>
+            <li>USB Flash Drive</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 MyNtokozo Holdings. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function openPage(pageName, elmnt, color) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByTagName("section");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].style.backgroundColor = "";
+            }
+            document.getElementById(pageName).style.display = "block";
+            elmnt.style.backgroundColor = color;
+        }
+
+        document.getElementsByClassName("tablink")[0].click();
+    </script>
+</body>
+</html>
